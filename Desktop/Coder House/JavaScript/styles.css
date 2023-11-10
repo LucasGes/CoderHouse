@@ -1,0 +1,85 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo {
+  position: relative;
+  text-align: center;
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 30px;
+  background: linear-gradient(black, grey);
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4),
+    0px -1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+}
+
+.subtitulo {
+  margin-right: 80px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(black, grey);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4),
+    0px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.container-fluid {
+  background-color: rgb(239, 233, 233);
+ }
+
+.inputF {
+  margin-left: 935px;
+  border: 1px solid gray;
+  height: 38px;
+  border-radius: 5px;
+}
+.infoAuto {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  letter-spacing: 2px;
+  text-align: center;
+  font-style: italic;
+}
+ul{
+    list-style: none;
+    text-align: center;
+ 
+}
+.columnas {
+  display: flex;
+  border-style: groove;
+}
+
+.columna {
+  flex: auto; 
+  padding: 0cm; 
+  border-style: groove;
+}
+
+.auto-imagen {
+  max-width: 600px; /* Establece el ancho máximo al 100% del contenedor */
+  height: 300px;
+  align-items: center;
+}
+#pokemonLista {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+.pokemon-image{
+    width: 200px; 
+    height: auto; 
+
+}
